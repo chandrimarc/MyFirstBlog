@@ -1,0 +1,32 @@
+h1{
+	color:#2a8000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 300%;
+}
+header{
+	text-align: center;
+	background-color: #b3b3b3;
+}
+nav{
+	color: #cc0099;
+	font-variant: small-caps;
+	font-size: 150%;
+	color: #2a8000;
+}
+body{
+	background-color: #152c42;
+}
+div{
+	font-size: 175%;
+	background-color:#009948;
+}
+p{
+	text-align: justify;
+}
+footer{
+	font-style: italic;
+	background-color: #b3b3b3; 
+}
+details{
+	background-color:#7e904f;
+}

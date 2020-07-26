@@ -3,9 +3,17 @@ h1{
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 300%;
 }
+h2{
+	color: #e49218
+}
 header{
 	text-align: center;
-	background-color: #b3b3b3;
+    background-color: #b3b3b3;
+    padding: 2%;
+    /* border-style: groove; */
+   /* border: 24px groove #10717d;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;*/
 }
 nav{
 	color: #cc0099;
@@ -14,11 +22,10 @@ nav{
 	color: #2a8000;
 }
 body{
-	background-color: #152c42;
-}
-div{
-	font-size: 175%;
-	background-color:#009948;
+	background-color: #a0bed2;
+	margin: 2%;
+	background-image: url("Tony.jpg");
+	background-image-size:100%;
 }
 p{
 	text-align: justify;
@@ -26,7 +33,29 @@ p{
 footer{
 	font-style: italic;
 	background-color: #b3b3b3; 
+	display: block;
+	clear: both;
 }
-details{
-	background-color:#7e904f;
+div{
+	width:50%;
+	/*margin-right: 2%;*/
+	display:inline-block;
+	float:left;
+	font-size: 155%;
+}
+.whole{
+	/*clear: both;*/
+	display: block;
+	width: 100%;
+	font-size: 155%;
+}
+header,footer{
+	    background: linear-gradient( #8db53f, #ffffff);
+}
+nav a{
+	display: inline-block;
+	background-color: #ff7373;
+	color: #ffffff;
+	width:22%;
+	text-decoration: none;
 }
